@@ -1,0 +1,16 @@
+<!-- credit-request-app/credit/templates/producer_ids.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Producer IDs</title>
+</head>
+<body>
+    <h1>Unique Producer IDs for Products in the Contract</h1>
+    <ul>
+        {% for producer_id in producer_ids %}
+            <li>{{ producer_id }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
